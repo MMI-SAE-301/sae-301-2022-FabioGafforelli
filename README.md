@@ -1,7 +1,7 @@
 # code de base pour TP (et future SAE 301)
 
-- **Nom :**
-- **Prénom :**
+- **Nom : Gafforelli**
+- **Prénom : Fabio**
 - **URL maquette Figma:**
 - **URL publique du site :**
 - **URL projet Supabase :**
