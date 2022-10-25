@@ -12,5 +12,9 @@ import MontreCarree from '@/components/MontreCarree.vue';
     <MontreCarree />
   </div>
   <div class="col-span-2 text-bleuroi">Armand Guy</div>
+  <div class="w-64">
+    <MontreCarree />
+  </div>
+  <div>A VENIR</div>
 </div>
 </template>
