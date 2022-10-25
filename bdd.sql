@@ -7,12 +7,12 @@ libelle_materiaux text,
     PRIMARY KEY (id_materiaux)
     );
 
-CREATE TABLE Montre (
+CREATE TABLE montre (
 id uuid not null default uuid_generate_v4() ,
 bracelet text,
 boitier text,
 ecran text,
-id_materiaux uuid ,
+id_materiaux uuid not null ,
 Commander boolean not null default false,
 utilisateur uuid references auth.users not null default uid(),
 primary key (id) ,
