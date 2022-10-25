@@ -33,6 +33,11 @@ FOREIGN KEY (id_materiaux) REFERENCES materiaux(id_materiaux)
 --
 -- code pour la création des policies 
 --
+CREATE POLICY "Enable read access for all users" ON "public"."montre"
+AS PERMISSIVE FOR SELECT
+TO public
+USING (true)
+--
 CREATE POLICY "Enable insert for authenticated users only" ON "public"."montre"
 AS PERMISSIVE FOR INSERT
 TO authenticated
