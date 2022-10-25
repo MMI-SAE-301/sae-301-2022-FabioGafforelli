@@ -11,7 +11,7 @@ const montre = ref({});
 const { data: listeMateriaux, error } = await supabase
   .from("materiaux")
   .select("*");
-if (error) console.log("n'a pas pu charger la table Quartier :", error);
+if (error) console.log("n'a pas pu charger la table Matériaux :", error);
 // Les convertir par `map` en un tableau d'objets {value, label} pour FormKit
 const optionsMateriaux = listeMateriaux?.map((materiaux) => ({
   value: materiaux.id_materiaux,
@@ -51,7 +51,6 @@ async function upsertMontre (dataForm, node) {
             <FormKitListColors name="bracelet" label="bracelet" />
             <FormKitListColors name="boitier" label="boitier" />
             <FormKitListColors name="ecran" label="Informations affichées sur l'écran" />
-
             <FormKit name="commander" label="Commander" type="checkbox"  />
         </FormKit>
     </div>

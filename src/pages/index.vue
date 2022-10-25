@@ -36,7 +36,7 @@ const exemples: Montre[]  = [{
   <h2>
     un extrait de vos montres (<RouterLink
       class="text-red-600 underline"
-      to="/basket"
+      to="/montres"
       >Toutes les voir</RouterLink
     >)
   </h2>
