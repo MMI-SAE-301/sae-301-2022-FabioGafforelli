@@ -2,7 +2,7 @@
 import MontreCarre from "@/components/MontreCarree.vue";
 import type { Montre } from "@/types";
 import { supabase, user } from '@/supabase';
-import ListeMontres from '../components/ListeMontres.vue';
+import ListeMontres from '@/components/ListeMontres.vue';
 
 const exemples: Montre[]  = [{
   bracelet: "#FF0000",
