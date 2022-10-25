@@ -35,7 +35,7 @@ async function upsertMontre (dataForm, node) {
   if (error) node.setErrors([error.message]);
   else {
     node.setErrors([]);
-    router.push({ name: "montre-edit-id", params: { id: data[0].id } });
+    router.push({ name: 'montres-listes', params: { id: data[0].id } });
   }
 }
 </script>
@@ -47,7 +47,7 @@ async function upsertMontre (dataForm, node) {
             <SvgProfil class=" w-64" v-bind="montre" id="profil" />
         </div>
         <FormKit type="form" v-model="montre" @submit="upsertMontre"  >
-          <FormKit type="select" name="id_materiaux" label="Materiaux du bracelet" :options="optionsMateriaux" />             
+          <FormKit type="select" name="id_materiaux" label="Materiaux du bracelet" placeholder="Sélectionner le matériel du bracelet" :options="optionsMateriaux" />             
             <FormKitListColors name="bracelet" label="bracelet" />
             <FormKitListColors name="boitier" label="boitier" />
             <FormKitListColors name="ecran" label="Informations affichées sur l'écran" />
