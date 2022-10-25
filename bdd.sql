@@ -43,3 +43,11 @@ AS PERMISSIVE FOR INSERT
 TO authenticated
 
 WITH CHECK (true)
+--
+CREATE POLICY "Update based on e mail if commander = false"
+ON public.montre
+FOR UPDATE USING(
+    (uid() = utilisateur) AND (Commander = false)
+) WITH CHECK (
+    uid() IN ( SELECT montre_1.utilisateur FROM montre montre_1)
+)
