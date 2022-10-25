@@ -21,7 +21,9 @@ const montre = ref<Montre>(props.data ?? {});
             <MontreCarree class="carousel-item w-64" v-bind="montre" id="profil" />
         </div>
         <FormKit type="form" v-model="montre">
-        <FormKit name="bracelet" label="bracelet" value="#FFFFFF" type="select" :options="colors" />
+        <FormKit name="bracelet" label="bracelet" value="#000000" type="select" :options="colors" />
+        <FormKit name="boitier" label="boitier" value="#000000" type="select" :options="colors" />
+        <FormKit name="ecran" label="ecran" value="#ffffff" type="select" :options="colors" />
 
         </FormKit>
     </div>
