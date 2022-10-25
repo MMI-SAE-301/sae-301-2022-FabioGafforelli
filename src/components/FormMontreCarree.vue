@@ -13,12 +13,8 @@ const montre = ref<Montre>(props.data ?? {});
 
 <template>
     <div class="p-2">
-        <ul class="flex gap-1">
-            <li><a href="#profil">Profil</a></li>
-            <li><a href="#dessus">Dessus</a></li>
-        </ul>
         <div class="carousel w-64">
-            <MontreCarree class="carousel-item w-64" v-bind="montre" id="profil" />
+            <MontreCarree class="carousel-item w-64" v-bind="montre" />
         </div>
         <FormKit type="form" v-model="montre">
         <FormKit name="bracelet" label="bracelet" value="#000000" type="select" :options="colors" />
