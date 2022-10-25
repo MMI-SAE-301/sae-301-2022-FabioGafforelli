@@ -9,7 +9,9 @@ import MontreCarree from '@/components/MontreCarree.vue';
   </div>
   <div class="grid grid-flow-row-dense grid-cols-3 grid-rows-3">
   <div class="col-span-2 w-64">
+    <RouterLink to="/montres/new">
     <MontreCarree />
+    </RouterLink>
   </div>
   <div class="col-span-2 text-bleuroi">Armand Guy</div>
   <div class="w-64">
