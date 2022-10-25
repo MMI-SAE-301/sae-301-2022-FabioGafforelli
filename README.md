@@ -2,7 +2,7 @@
 
 - **Nom : Gafforelli**
 - **Prénom : Fabio**
-- **URL maquette Figma:**
+- **URL maquette Figma: https://www.figma.com/file/arsOA5rZOJZecBlUhO6w00/SAE-Configurateur_Fabio_Gafforelli_2A1?node-id=0%3A1**
 - **URL publique du site :**
 - **URL projet Supabase : https://tfcjfqihjzxwogmltyph.supabase.co**
   - [x] Avez-vous invité abdallah.makhoul@univ-fcomte.fr dans votre 'Organisation' Supabase ?
