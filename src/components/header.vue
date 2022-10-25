@@ -4,12 +4,12 @@ import Logo from "./Logo.vue";
 </script>
 
 <template>
-    <header class=" bg-bleuroi drop-shadow-lg z-10 fixed top-0 left-0 right-0 px-5 lg:py-8 py-3">
+    <header class=" bg-bleuroi drop-shadow-lg z-10 top-0 left-0 right-0 px-5 lg:py-8 py-3">
         <a href="#content" class="sr-only focus:not-sr-only text-lg text-blanc"> Passez au contenu </a>
         <nav class=" lg:flex lg:justify-between items-center">
           <div class="flex justify-between items-center">
            <RouterLink to="/">		
-           <Logo class="w-36" />
+           <Logo class="w-24" />
         </RouterLink> 	
           <span class="text-3xl cursor-pointer lg:hidden block w-8 h-8 mr-25  ">
             <span class="sr-only ">Menu</span>
