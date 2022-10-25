@@ -17,10 +17,10 @@ import Logo from "./Logo.vue";
           </div>
           <ul class="lg:flex  gap-6 lg:items-center text-white text-xl font-algerian mx-6 py-4 hidden" >
             <li class="my-3">
-              <RouterLink class="my-6 lg:px-4 xl:pt-2 xl:rounded-sm font-museomoderno text-white  " to="/configurer">Personnaliser</RouterLink>
+              <RouterLink class="my-6 lg:px-4 xl:pt-2 xl:rounded-sm font-museomoderno text-white  " to="/montres/new">Personnalisation</RouterLink>
             </li>
             <li class="my-3">
-              <RouterLink class="my-6 lg:px-4 xl:pt-2 xl:rounded-sm font-museomoderno text-white  " to="/histoire">Société</RouterLink>
+              <RouterLink class="my-6 lg:px-4 xl:pt-2 xl:rounded-sm font-museomoderno text-white  " to="/montres/liste">Mes montres</RouterLink>
             </li>
             <li class="my-3">
               <RouterLink class="my-6 lg:px-4 xl:pt-2 xl:rounded-sm font-museomoderno text-white " to="/reglement">Economie</RouterLink>
