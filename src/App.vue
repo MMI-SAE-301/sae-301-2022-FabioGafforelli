@@ -1,10 +1,10 @@
-<template>
+<template class="bg-blue-700">
   <nav>
     <h4 class="text-xl">
       <Bars3Icon class="inline-block h-5 w-5 text-blue-500" />
       menu (dans <code class="font-mono">/src/App.vue</code>)
     </h4>
-    <LoginGoogle />
+    <Header />
     <ul>
       <li>
         <router-link class="text-red-600 underline" to="/">
@@ -41,6 +41,6 @@
 
 <script setup lang="ts">
 import { Bars3Icon } from "@heroicons/vue/20/solid";
+import Header from "./components/header.vue";
 import Login from "./components/Login.vue";
-import LoginGoogle from "./components/LoginGoogle.vue";
 </script>
