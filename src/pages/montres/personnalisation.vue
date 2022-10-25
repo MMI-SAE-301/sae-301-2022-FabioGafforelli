@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import MontreCarree from '@/components/MontreCarree.vue';
+import MontreRonde from '@/components/MontreRonde.vue';
 
 
 </script>
@@ -15,7 +16,7 @@ import MontreCarree from '@/components/MontreCarree.vue';
   </div>
   <div class="col-span-2 text-bleuroi">Armand Guy</div>
   <div class="w-64">
-    <MontreCarree />
+    <MontreRonde />
   </div>
   <div>A VENIR</div>
 </div>
