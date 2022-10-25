@@ -17,6 +17,9 @@ const exemples: Montre[]  = [{
 ];
 </script>
 <template>
+  <div class="grid grid-cols-2">
+    <img src="/Montre_accueil.png" alt="Une belle montre faite par la manufacture pontissalienne">
+  </div>
    <section>
     <h1 class="text-2xl">Exemples de Montres</h1>
     <div class="flex flex-wrap gap-2">
