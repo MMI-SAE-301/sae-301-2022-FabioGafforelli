@@ -9,7 +9,11 @@ module.exports = {
       'bleuroi': '#0C1673',
       'rouge': '#da2424',
     },
-    extend: {},
+    extend: {
+      "fontFamily": {
+        "exo2": "Exo2",
+       },
+    },
   },
   plugins: [
     require("@tailwindcss/typography"),
