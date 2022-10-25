@@ -4,7 +4,7 @@ import Logo from "./Logo.vue";
 </script>
 
 <template>
-    <header class=" bg-gradient-to-br from-blue-700 to-blue-900 drop-shadow-lg z-10 fixed top-0 left-0 right-0 px-5 lg:py-8 py-3">
+    <header class=" bg-bleuroi drop-shadow-lg z-10 fixed top-0 left-0 right-0 px-5 lg:py-8 py-3">
         <a href="#content" class="sr-only focus:not-sr-only text-lg text-white"> Passez au contenu </a>
         <nav class=" lg:flex lg:justify-between items-center">
           <div class="flex justify-between items-center">
