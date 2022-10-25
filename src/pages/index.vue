@@ -26,8 +26,14 @@ const exemples: Montre[]  = [{
     <p class="font-bold"> Tik Tak, la montre 
 connecte made in Pontarlier </p>
 
-<p>Tik Tak, est la nouvelle marque de montre connectée sortie tout droit des ateliers Catinat, qui tiennent leur nom du fort qui a défendu Pontarlier en 1940
+<p>
+  Tik Tak, est la nouvelle marque de montre connectée sortie tout droit des ateliers Catinat, qui tiennent leur nom du fort qui a défendu Pontarlier en 1940
 </p>
+<p>
+  Tik Tak est une édition limitée pour l’année 2022
+</p>
+<br>
+<button class="bg-bleuroi px-5 py-3 text-sm shadow-sm font-medium  text-blanc rounded-full hover:shadow-2xl hover:bg-bleuroi">Commencez l'expérience</button>
 </div>
 </div>
    <section>
