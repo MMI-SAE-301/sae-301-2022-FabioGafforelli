@@ -7,6 +7,7 @@ module.exports = {
     colors: {
       'blanc': '#ffffff',
       'bleuroi': '#0C1673',
+      'rouge': '#da2424',
     },
     extend: {},
   },
