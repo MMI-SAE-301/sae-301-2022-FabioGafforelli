@@ -4,7 +4,7 @@
       <Bars3Icon class="inline-block h-5 w-5 text-blue-500" />
       menu (dans <code class="font-mono">/src/App.vue</code>)
     </h4>
-    <Login />
+    <LoginGoogle />
     <ul>
       <li>
         <router-link class="text-red-600 underline" to="/">
@@ -15,7 +15,7 @@
       <li>
         <router-link class="text-red-600 underline" to="/montres/new">
           lien vers
-          <code class="font-mono">/src/pages/index.vue</code>
+          <code class="font-mono">/src/pages/new.vue</code>
         </router-link>
       </li>
       <li>
@@ -36,4 +36,5 @@
 <script setup lang="ts">
 import { Bars3Icon } from "@heroicons/vue/20/solid";
 import Login from "./components/Login.vue";
+import LoginGoogle from "./components/LoginGoogle.vue";
 </script>
