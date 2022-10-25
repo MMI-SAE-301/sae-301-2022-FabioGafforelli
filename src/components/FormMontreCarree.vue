@@ -1,31 +1,38 @@
 <script setup lang="ts">
     import type { Montre } from "@/types" 
-    import { ref } from "vue";
+    import { colors } from "@/types"
     import { supabase } from "@/supabase";
+    import { ref } from "vue";
     import { useRouter } from "vue-router";
-    import MontreCarree from "./MontreCarree.vue";
 import FormKitListColors from "./FormKitListColors.vue";
-
+import MontreCarree from "./MontreCarree.vue";
 const router = useRouter();
-const montre = ref({});
-
-
-
+    const props = defineProps<{
+  data?: Montre;
+  id?: string;
+}>();
+const montre = ref<Montre>(props.data ?? {});
+    async function upsertMontre(dataForm, node) {
+     const { data, error } = await supabase.from("Basket").upsert(dataForm);
+     if (error) node.setErrors([error.message])
+    else {
+            node.setErrors([]);
+            router.push({ name: "montre-edit-id", params: { id: data[0].id } });
+        }
+    }
 </script>
 
 <template>
-  <main class="bg-red-700 grid grid-flow-row-dense grid-cols-[repeat(auto-fit,minmax(350px,1fr))] gap-5  lg:mx-10">
-    <div class="grid grid-cols-2">
-        <div>
-            <MontreCarree class="carousel-item w-64" v-bind="montre" id="profil" />
+    <div class="p-2">
+        <div class="carousel w-64">
+            <MontreCarree class="carousel-item w-64" v-bind="montre" />
+
         </div>
-        <FormKit type="form" v-model="montre" >
+        <FormKit type="form" v-model="montre">
             <FormKitListColors name="bracelet" label="bracelet" />
             <FormKitListColors name="boitier" label="boitier" />
-            <FormKitListColors name="ecran" label="Informations affichées sur l'écran" />
+            <FormKitListColors name="ecran" label="Informations de l'écran" />
 
-            <FormKit name="commander" label="Commander" type="checkbox"  />
         </FormKit>
     </div>
-    </main>
 </template>
