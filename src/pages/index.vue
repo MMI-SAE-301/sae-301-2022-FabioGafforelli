@@ -33,9 +33,12 @@ connecte made in Pontarlier </p>
   Tik Tak est une édition limitée pour l’année 2022
 </p>
 <br>
+<RouterLink to="/montres/personnalisation">
 <button class="bg-bleuroi px-5 py-3 text-sm shadow-sm font-medium  text-blanc rounded-full hover:shadow-2xl hover:bg-bleuroi">Commencez l'expérience</button>
+</RouterLink>
 </div>
 </div>
+
    <section>
     <h1 class="text-2xl">Exemples de Montres</h1>
     <div class="flex flex-wrap gap-2">
