@@ -10,6 +10,7 @@ import Logo from "./Logo.vue";
           <div class="flex justify-between items-center">
            <RouterLink to="/">		
            <Logo class="w-24" />
+           <h1 class="text-blanc-50 text-xl font-bold lg:text-3xl">Tik - Tak</h1>
         </RouterLink> 	
           <span class="text-3xl cursor-pointer lg:hidden block w-8 h-8 mr-25  ">
             <span class="sr-only ">Menu</span>
