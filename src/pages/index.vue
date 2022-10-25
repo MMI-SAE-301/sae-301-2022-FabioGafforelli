@@ -17,9 +17,19 @@ const exemples: Montre[]  = [{
 ];
 </script>
 <template>
-  <div class="grid grid-cols-2">
-    <img src="/Montre_accueil.png" alt="Une belle montre faite par la manufacture pontissalienne">
+ <div class="flex flex-row">
+  <div class="basis-1/2">
+    <img src="Montre_accueil.png" alt="">
   </div>
+  <div class="basis-1/4">
+    <img src="TiKTaK.png" alt="">
+    <p class="font-bold"> Tik Tak, la montre 
+connecte made in Pontarlier </p>
+
+<p>Tik Tak, est la nouvelle marque de montre connectée sortie tout droit des ateliers Catinat, qui tiennent leur nom du fort qui a défendu Pontarlier en 1940
+</p>
+</div>
+</div>
    <section>
     <h1 class="text-2xl">Exemples de Montres</h1>
     <div class="flex flex-wrap gap-2">
