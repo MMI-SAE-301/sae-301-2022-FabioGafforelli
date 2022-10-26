@@ -51,3 +51,8 @@ FOR UPDATE USING(
 ) WITH CHECK (
     uid() IN ( SELECT montre_1.utilisateur FROM montre montre_1)
 )
+--
+CREATE POLICY "Enable delete for users based on user_id" ON "public"."montre"
+AS PERMISSIVE FOR DELETE
+TO public
+USING (auth.uid() = utilisateur)
