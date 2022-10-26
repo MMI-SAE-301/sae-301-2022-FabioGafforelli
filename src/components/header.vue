@@ -27,9 +27,6 @@ import Logo from "./Logo.vue";
               <RouterLink class="my-6 lg:px-4 xl:pt-2 xl:rounded-sm font-museomoderno text-blanc " to="/reglement"></RouterLink>
             </li>
             <li class="my-3">
-              <RouterLink class="my-6 lg:px-4 xl:pt-2 xl:rounded-sm text-blanc font-museomoderno " to="/inscription">S'inscrire</RouterLink>
-            </li>
-            <li class="my-3">
               <RouterLink class="my-6 lg:px-4 xl:pt-2 xl:rounded-sm font-museomoderno text-blanc " to="/login">Se Connecter</RouterLink>
             </li>
           </ul>    
