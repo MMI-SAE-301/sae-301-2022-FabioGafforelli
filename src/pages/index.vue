@@ -107,8 +107,11 @@ connecte made in Pontarlier </p>
 <p>Cette montre tient son nom de Guy Armand, personnalité locale de Pontarlier connu pour avoir fondé en 1890 la distillerie “Armand Guy” créateur du célébre Pontarlier Anis qui a fait la renomée de la ville de Pontarlier.</p>
 <RouterLink to="/montres/personnalisation">
   <br>
-<button class="bg-bleuroi px-5 py-3 text-sm shadow-sm font-medium  text-blanc border-full hover:shadow-2xl hover:bg-bleuroi"> +</button>
- <p class="text-bleuroi px-5 py-3 "> Commencer la personnalisation </p>
+  <span class="animate-pulse">
+<button class="bg-bleuroi px-5 py-3 text-sm shadow-sm font-medium  text-blanc border-full hover:shadow-2xl hover:bg-bleuroi">
+   + Commencer la personnalisation
+</button>
+</span>
 </RouterLink>
 </div>
 </div>
