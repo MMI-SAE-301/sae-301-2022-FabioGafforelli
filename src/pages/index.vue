@@ -79,6 +79,13 @@ connecte made in Pontarlier </p>
 </div>
   </div>
 </section>
+<section>
+ <div class="flex flex-row">
+  <div class="basis-1/2">
+    <img src="PourquoiMontreAccueil.jpg" alt="">
+  </div>
+</div>
+</section>
    <section>
     <h1 class="text-2xl">Exemples de Montres</h1>
     <div class="flex flex-wrap gap-2">
