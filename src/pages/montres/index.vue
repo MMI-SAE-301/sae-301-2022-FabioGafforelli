@@ -7,7 +7,7 @@ import ListeMontres from "../../components/ListeMontres.vue";
     <div class="flex flex-wrap gap-4">
       <div class="flex justify-center">
     <h2>Liste des montres perso de l'utlisateur</h2>
-    <ListeMontres />
+    <ListeMontres class="flex flex-wrap gap-2" :max="100" />
     </div>
   </div>
 </template>

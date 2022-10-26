@@ -48,7 +48,7 @@ if (props.id) {
     console.log("n'a pas pu charger le table Maison :", error);
   else quartierObject.value = data[0];
 }
-
+// @ts-ignore
 async function upsertMontre (dataForm, node) {
   const { data, error } = await supabase.from("montre").upsert(dataForm);
   if (error) node.setErrors([error.message]);
@@ -58,10 +58,11 @@ async function upsertMontre (dataForm, node) {
   }
 }
 async function supprimerMontre() {
-  const { data, error } = await supabase
-    .from("montre")
-    .delete()
-    .match({ id: quartierObject.value.id });
+const { data, error } = await supabase
+  .from('montre')
+  .delete()
+  .match({ id: quartierObject.value.id })
+
   if (error) {
     console.error(
       "Erreur à la suppression de ",
