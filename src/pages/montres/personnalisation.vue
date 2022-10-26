@@ -20,6 +20,8 @@ import MontreRonde from '@/components/MontreRonde.vue';
   <div class="w-64">
     <MontreRonde />
   </div>
-  <div>A VENIR</div>
+  <div>
+    <button class="bg-bleuroi px-5 py-3 text-sm shadow-sm font-medium  text-blanc rounded-full hover:shadow-2xl hover:bg-bleuroi-100">A VENIR</button>
+  </div>
 </div>
 </template>
