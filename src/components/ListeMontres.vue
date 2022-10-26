@@ -11,7 +11,7 @@ let { data: Montres, error } = await supabase
 
   .limit(props.max ?? 100)
 if (error) {
-  console.log("n'a pas pu récupérer les baskets", { error });
+  console.log("n'a pas pu récupérer les montres", { error });
 }
 </script>
 <template>
