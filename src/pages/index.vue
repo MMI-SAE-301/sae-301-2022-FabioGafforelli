@@ -38,7 +38,8 @@ connecte made in Pontarlier </p>
 </RouterLink>
 </div>
 </div>
-<div class="grid grid-cols-4 gap-4">
+<div class="grid grid-cols-5 gap-4">
+  <div class="..."></div>
   <div class="..."></div>
   <div class="..."></div>
   <div class="rounded-[12px]  bg-bleuroi">
