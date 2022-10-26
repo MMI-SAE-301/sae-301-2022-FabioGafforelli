@@ -22,6 +22,9 @@ import MontreCarree from '@/components/MontreCarree.vue';
             <p>
                 Matériaux bracelet : Platine
             </p>
+            <p>
+                Boitier : Couleur Vert
+            </p>
 
         </div>
         </div>
