@@ -142,13 +142,13 @@ const { data, error } = await supabase
         </div>
         <Switch
     v-model="montre.commander"
-    :class="montre.commander ? 'bg-' : 'bg-'"
+    :class="montre.commander ? 'bg-bleuroi' : 'bg-bleuroi'"
     class="relative inline-flex h-6 w-11 items-center rounded-full"
   >
     <span class="sr-only">Commander</span>
     <span
       :class="montre.commander ? 'translate-x-6' : 'translate-x-1'"
-      class="inline-block h-4 w-4 transform rounded-full bg- transition"
+      class="inline-block h-4 w-4 transform rounded-full bg-blanc transition"
     />
   </Switch>
         <button
