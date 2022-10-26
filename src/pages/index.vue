@@ -17,7 +17,7 @@ const exemples: Montre[]  = [{
   ecran: "#FFFFFF",
 },
 ];
-const exemple: MontreRonde[]  = [{
+const exemple: Montre[]  = [{
   bracelet: "#FF0000",
   boitier: "#FF00FF",
   ecran: "#FFFFFF",
@@ -137,6 +137,16 @@ connecte made in Pontarlier </p>
           }"
         >
           <MontreCarre class="w-64" v-bind="montre" />
+        </RouterLink>
+      </div>
+      <div class="w-64" v-for="montre in exemple">
+        <RouterLink
+          :to="{
+            name: 'montres-exemple-data',
+            params: { data: JSON.stringify(montre) },
+          }"
+        >
+          <MontreRonde class="w-64" v-bind="montre" />
         </RouterLink>
       </div>
       </div>
