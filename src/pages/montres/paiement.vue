@@ -14,12 +14,28 @@ import MontreCarree from '@/components/MontreCarree.vue';
             </h3>
 <br>
 <FormKit type="form">
+    <div class="grid grid-cols-2">
     <FormKit
   type="text"
   label="Nom du titulaire de la carte"
   placeholder="Nom du titulaire de la carte"
 value=""
 />
+    <FormKit
+  type="text"
+  label="Numéro de carte"
+  placeholder="Numéro de carte"
+value=""
+/>
+</div>
+<div class="grid grid-cols-2">
+<FormKit
+  type="month"
+  label="Mois et annéed'expiration"
+  name="mois et année d'expiration"
+  value=""
+/>
+</div>
 </FormKit>
 <h3 class="text-xl font-bold">
                 Prix : 249€
