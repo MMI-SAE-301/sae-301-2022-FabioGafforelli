@@ -38,13 +38,15 @@ connecte made in Pontarlier </p>
 </RouterLink>
 </div>
 </div>
-<div class="grid grid-cols-3 gap-4">
+<div class="grid grid-cols-4 gap-4">
   <div class="..."></div>
   <div class="..."></div>
-  <div class="...">
-    <p class="text-bleuroi">------------------</p>
+  <div class="rounded-[12px]  bg-bleuroi">
+      
+    </div>
+  <div  class="...">
     <p class="text-bleuroi">Les Différents modèles</p>
-  </div>
+    </div>
   </div>
    <section>
     <h1 class="text-2xl">Exemples de Montres</h1>
