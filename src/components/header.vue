@@ -21,7 +21,7 @@ import Logo from "./Logo.vue";
               <RouterLink class="my-6 lg:px-4 xl:pt-2 xl:rounded-sm font-museomoderno text-blanc  " to="/montres/personnalisation">Personnalisation</RouterLink>
             </li>
             <li class="my-3">
-              <RouterLink class="my-6 lg:px-4 xl:pt-2 xl:rounded-sm font-museomoderno text-blanc  " to="/montres/liste">Mes montres</RouterLink>
+              <RouterLink class="my-6 lg:px-4 xl:pt-2 xl:rounded-sm font-museomoderno text-blanc  " to="/montres">Mes montres</RouterLink>
             </li>
             <li class="my-3">
               <RouterLink class="my-6 lg:px-4 xl:pt-2 xl:rounded-sm font-museomoderno text-blanc " to="/reglement"></RouterLink>
