@@ -4,6 +4,7 @@ import type { Montre } from "@/types";
 import { supabase, user } from '@/supabase';
 import ListeMontres from '@/components/ListeMontres.vue';
 import Login from "@/components/Login.vue";
+import LineVue from "@/components/line.vue";
 import MontreRonde from "@/components/MontreRonde.vue";
 const exemples: Montre[]  = [{
   bracelet: "#FF0000",
@@ -46,11 +47,11 @@ connecte made in Pontarlier </p>
   <div class="..."></div>
   <div class="..."></div>
   <div class="..."></div>
-  <div class="rounded-[12px]  bg-bleuroi">
-      
+  <div>
+      <LineVue />
     </div>
-  <div  class="...">
-    <p class="text-bleuroi">Les Différents modèles</p>
+    <div  class="...">
+    <p class="text-bleuroi font-bold ">Les Différents modèles</p>
     </div>
   </div>
 </section>
@@ -84,6 +85,11 @@ connecte made in Pontarlier </p>
   <div class="basis-1/2">
     <img src="PourquoiMontreAccueil.jpg" alt="">
   </div>
+  <div class="basis-1/3">
+    <img src="TiKTaK.png" alt="">
+    <p class="font-bold"> Tik Tak, la montre 
+connecte made in Pontarlier </p>
+</div>
 </div>
 </section>
    <section>
