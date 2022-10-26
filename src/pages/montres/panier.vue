@@ -25,6 +25,9 @@ import MontreCarree from '@/components/MontreCarree.vue';
             <p>
                 Boitier : Couleur Vert
             </p>
+            <p>
+                Info écran : Couleur Jaune
+            </p>
 
         </div>
         </div>
