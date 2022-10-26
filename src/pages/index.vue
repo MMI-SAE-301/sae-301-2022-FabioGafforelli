@@ -48,7 +48,7 @@ connecte made in Pontarlier </p>
 </p>
 <br>
 <RouterLink to="/montres/personnalisation">
-<button class="bg-bleuroi px-5 py-3 text-sm shadow-sm font-medium  text-blanc rounded-full hover:shadow-2xl hover:bg-bleuroi">Commencez l'expérience</button>
+<button class="bg-bleuroi px-5 py-3 text-sm shadow-sm font-medium  text-blanc rounded-full hover:shadow-2xl hover:bg-bleuroi-100">Commencez l'expérience</button>
 </RouterLink>
 </div>
 </div>
