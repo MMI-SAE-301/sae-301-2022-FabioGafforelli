@@ -9,6 +9,11 @@ import MontreCarree from '@/components/MontreCarree.vue';
         <div class="">
             <MontreCarree class=" w-64" v-bind="montre" id="profil" />
         </div>
+        <div>
+            <h3 class="text-xl font-bold">
+                Votre commande :
+            </h3>
+        </div>
         </div>
         </main>
 </template>
