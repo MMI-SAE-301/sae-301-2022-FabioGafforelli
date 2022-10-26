@@ -39,9 +39,12 @@ connecte made in Pontarlier </p>
 </div>
 </div>
 <div class="grid grid-cols-3 gap-4">
-  <div class="...">01</div>
-  <div class="...">02</div>
-  <div class="...">03</div>
+  <div class="..."></div>
+  <div class="..."></div>
+  <div class="...">
+    <p class="text-bleuroi">------------------</p>
+    <p class="text-bleuroi">Les Différents modèles</p>
+  </div>
   </div>
    <section>
     <h1 class="text-2xl">Exemples de Montres</h1>
