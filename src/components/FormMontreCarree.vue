@@ -140,7 +140,17 @@ const { data, error } = await supabase
                 <FormKitListColors name="ecran" />
             </div>
         </div>
-        <FormKit class="grid grid-cols-2" name="commander" label="Commander" type="checkbox" />
+        <Switch
+    v-model="montre.commander"
+    :class="montre.commander ? 'bg-' : 'bg-'"
+    class="relative inline-flex h-6 w-11 items-center rounded-full"
+  >
+    <span class="sr-only">Commander</span>
+    <span
+      :class="montre.commander ? 'translate-x-6' : 'translate-x-1'"
+      class="inline-block h-4 w-4 transform rounded-full bg- transition"
+    />
+  </Switch>
         <button
         type="button"
         v-if="quartierObject.id"
