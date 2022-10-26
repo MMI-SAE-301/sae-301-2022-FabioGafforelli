@@ -16,7 +16,7 @@ import Logo from "./Logo.vue";
             <span class="sr-only ">Menu</span>
           </span>
           </div>
-          <ul class="lg:flex  gap-6 lg:items-center text-blanc text-xl font-algerian mx-6 py-4 hidden" >
+          <ul class="lg:flex  gap-6 lg:items-center text-blanc text-s font-algerian mx-6 py-4 hidden" >
             <li class="my-3">
               <RouterLink class="my-6 lg:px-4 xl:pt-2 xl:rounded-sm font-museomoderno text-blanc  " to="/montres/personnalisation">Personnalisation</RouterLink>
             </li>
