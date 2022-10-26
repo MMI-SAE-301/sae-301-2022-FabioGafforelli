@@ -8,6 +8,7 @@ module.exports = {
       'blanc': '#ffffff',
       'bleuroi': '#0C1673',
       'rouge': '#da2424',
+      'gris': '#EFEFEF',
     },
     extend: {
       "fontFamily": {
