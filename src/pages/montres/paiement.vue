@@ -22,7 +22,7 @@ import MontreCarree from '@/components/MontreCarree.vue';
 value=""
 />
     <FormKit
-  type="text"
+  type="number"
   label="Numéro de carte"
   placeholder="Numéro de carte"
 value=""
@@ -36,7 +36,7 @@ value=""
   value=""
 />
 <FormKit
-  type="text"
+  type="number"
   label="Numéro de sécurité"
   placeholder="Numéro de sécurité"
 value=""
