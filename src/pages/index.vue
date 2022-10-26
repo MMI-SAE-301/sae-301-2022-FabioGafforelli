@@ -17,6 +17,17 @@ const exemples: Montre[]  = [{
   ecran: "#FFFFFF",
 },
 ];
+const exemple: MontreRonde[]  = [{
+  bracelet: "#FF0000",
+  boitier: "#FF00FF",
+  ecran: "#FFFFFF",
+},
+{
+  bracelet: "#0c4039",
+  boitier: "#FFFF00",
+  ecran: "#FFFFFF",
+},
+];
 </script>
 <template>
   <section>
@@ -117,7 +128,7 @@ connecte made in Pontarlier </p>
 </section>
    <section>
     <h1 class="text-2xl">Exemples de Montres</h1>
-    <div class="flex flex-wrap gap-2">
+    <div class="flex flex-wrap gap-4">
       <div class="w-64" v-for="montre in exemples">
         <RouterLink
           :to="{
