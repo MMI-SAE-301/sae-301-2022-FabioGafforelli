@@ -14,6 +14,15 @@ module.exports = {
       "fontFamily": {
         "exo2": "Exo2",
        },
+       "fontSize": {
+        "base": "1.5rem",
+        "lg": "2rem",
+        "xl": "2.25rem",
+        "2xl": "2.5rem",
+        "3xl": "3rem",
+        "4xl": "4rem",
+        "5xl": "5rem"
+      },
     },
   },
   plugins: [
