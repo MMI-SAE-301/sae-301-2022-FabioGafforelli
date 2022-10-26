@@ -53,6 +53,18 @@ connecte made in Pontarlier </p>
     </div>
   </div>
 </section>
+<br>
+<br>
+<section>
+  <div class="grid grid-cols-4 gap-4">
+  <div class="..."></div>
+  <div class="box-border h-32 w-32 p-4 border-4 ...">
+  <MontreCarre />
+</div>
+<div class="...">03</div>
+  <div class="...">04</div>
+  </div>
+</section>
    <section>
     <h1 class="text-2xl">Exemples de Montres</h1>
     <div class="flex flex-wrap gap-2">
