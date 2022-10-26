@@ -108,6 +108,11 @@ connecte made in Pontarlier </p>
   <div class=" flex justify-center">
     <h1 class="font-bold text-4xl text-bleuroi">TiK•TaK</h1>
   </div>
+  <br>
+  <div class=" flex justify-center">
+    <h2 class="font-bold text-lg">Quelques exemples de Montres personnalisés par les utilisateurs
+</h2>
+  </div>
   </div>
 </section>
    <section>
