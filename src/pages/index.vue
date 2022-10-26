@@ -130,14 +130,7 @@ connecte made in Pontarlier </p>
     <h1 class="text-2xl">Exemples de Montres</h1>
     <div class="flex flex-wrap gap-4">
       <div class="w-64" v-for="montre in exemples">
-        <RouterLink
-          :to="{
-            name: 'montres-exemple-data',
-            params: { data: JSON.stringify(montre) },
-          }"
-        >
           <MontreCarre class="w-64" v-bind="montre" />
-        </RouterLink>
       </div>
       <div class="w-64" v-for="montre in exemple">
         <RouterLink
