@@ -58,12 +58,12 @@ connecte made in Pontarlier </p>
 <br>
 <section>
   <div class="grid grid-cols-3 gap-4">
-  <div class="box-border h-96 w-96 p-16 border-4 bg-bleuroi">
+  <div class="box-border h-96 w-96 p-16 border-4 bg-gris">
   <MontreCarre class="h-64 w-64 p-4" />
 </div>
 <div class="..."></div>
-<div class="box-border h-96 w-96 p-4 border-4 ...">
-  <MontreRonde />
+<div class="box-border h-96 w-96 p-16 border-4 bg-gris">
+  <MontreRonde class="h-64 w-64 p-4" />
 </div>
   </div>
 </section>
