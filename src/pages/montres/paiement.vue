@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import MontreCarree from '@/components/MontreCarree.vue';
+import Carte from '@/components/icones/carte.vue';
 </script>
 
 <template>
@@ -13,6 +14,7 @@ import MontreCarree from '@/components/MontreCarree.vue';
                 Paiement par carte :
             </h3>
 <br>
+<Carte />
 <FormKit type="form">
     <div class="grid grid-cols-2">
     <FormKit
