@@ -1,6 +1,9 @@
 <script setup lang="ts">
 import Logo from './Logo.vue'
 import { Bars3Icon } from "@heroicons/vue/20/solid";
+import { supabase, user } from '@/supabase';
+import { ref } from 'vue'
+
 
 </script>
 
@@ -31,38 +34,32 @@ import { Bars3Icon } from "@heroicons/vue/20/solid";
       >
       <ul id="menu" v-if="menuOuvert" class="lg:hidden bg-white w-full text- text-xl font-timmana  py-4 text-center" >
         <li class="my-3">
-          <RouterLink class="my-6 lg:px-4 xl:pt-2 xl:rounded-sm font-algerian text-black  " to="/programmation">Programmation</RouterLink>
-        </li>
-        <li class="my-3">
-          <RouterLink class="my-6 lg:px-4 xl:pt-2 xl:rounded-sm font-algerian text-black " to="/artistes">Artistes</RouterLink>
-        </li>
-        <li class="my-3">
-          <RouterLink class="my-6 lg:px-4 xl:pt-2 xl:rounded-sm text-black font-algerian " to="/festival">Festival</RouterLink>
-        </li>
-        <li class="my-3">
-          <RouterLink class="my-6 lg:px-4 xl:pt-2 xl:rounded-sm font-algerian text-black " to="/billetterie">Billetterie</RouterLink>
-        </li>
-        <li class="my-3">
-          <RouterLink class="my-6 lg:px-4 xl:pt-2 xl:rounded-sm font-algerian text-black" to="/contact">Contact</RouterLink>
-        </li>
+              <RouterLink class="my-6 lg:px-4 xl:pt-2 xl:rounded-sm font-museomoderno text-blanc  " to="/montres/personnalisation">Personnalisation</RouterLink>
+            </li>
+            <li class="my-3">
+              <RouterLink class="my-6 lg:px-4 xl:pt-2 xl:rounded-sm font-museomoderno text-blanc  " to="/montres">Mes montres</RouterLink>
+            </li>
+            <li class="my-3" v-if="user">
+              <RouterLink class="my-6 lg:px-4 xl:pt-2 xl:rounded-sm font-museomoderno text-blanc " to="/reglement"></RouterLink>
+            </li>
+            <li class="my-3">
+              <RouterLink class="my-6 lg:px-4 xl:pt-2 xl:rounded-sm font-museomoderno text-blanc " to="/login">Se Connecter</RouterLink>
+            </li>
       </ul>
       </Transition>
-      <ul class="lg:flex  gap-6 lg:items-center text-white text-xl font-algerian mx-6 py-4 hidden" >
+      <ul class="lg:flex  gap-6 lg:items-center text-white text-base font-algerian mx-6 py-4 hidden" >
         <li class="my-3">
-          <RouterLink class="my-6 lg:px-2 xl:pt-2 xl:rounded-sm font-algerian text-white" to="/programmation">Programmation</RouterLink>
-        </li>
-        <li class="my-3">
-          <RouterLink class="my-6 lg:px-2 xl:pt-2 xl:rounded-sm font-algerian text-white " to="artistes">Artistes</RouterLink>
-        </li>
-        <li class="my-3">
-          <RouterLink class="my-6 lg:px-2 xl:pt-2 xl:rounded-sm font-algerian text-white " to="/festival">Festival</RouterLink>
-        </li>
-        <li class="my-3">
-          <RouterLink class="my-6 lg:px-2 xl:pt-2 xl:rounded-sm font-algerian text-white " to="/billetterie">Billetterie</RouterLink>
-        </li>
-        <li class="my-3">
-          <RouterLink class="my-6 lg:px-2 xl:pt-2 xl:rounded-sm font-algerian text-white " to="/contact">Contact</RouterLink>
-        </li>
+              <RouterLink class="my-6 lg:px-4 xl:pt-2 xl:rounded-sm font-museomoderno text-blanc  " to="/montres/personnalisation">Personnalisation</RouterLink>
+            </li>
+            <li class="my-3" v-if="user">
+              <RouterLink class="my-6 lg:px-4 xl:pt-2 xl:rounded-sm font-museomoderno text-blanc " to="/montres">Mes montres</RouterLink>
+            </li>
+            <li class="my-3" v-else>
+              <RouterLink class="my-6 lg:px-4 xl:pt-2 xl:rounded-sm font-museomoderno text-blanc " to="/montres/inspiration">Inspiration</RouterLink>
+            </li>
+            <li class="my-3">
+              <RouterLink class="my-6 lg:px-4 xl:pt-2 xl:rounded-sm font-museomoderno text-blanc " to="/login">Se Connecter</RouterLink>
+            </li>
       </ul>    
     </nav>
   </header>
