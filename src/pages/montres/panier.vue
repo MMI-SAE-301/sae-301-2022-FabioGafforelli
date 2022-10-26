@@ -13,6 +13,16 @@ import MontreCarree from '@/components/MontreCarree.vue';
             <h3 class="text-xl font-bold">
                 Votre commande :
             </h3>
+            <p>
+                Modèle : Montre Armand Guy
+            </p>
+            <p>
+                Bracelet : Couleur fushia
+            </p>
+            <p>
+                Matériaux bracelet : Platine
+            </p>
+
         </div>
         </div>
         </main>
