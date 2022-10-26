@@ -82,12 +82,17 @@ connecte made in Pontarlier </p>
 </section>
 <section>
  <div class="flex flex-row">
-  <div class="basis-1/2">
+  <div class="basis-1/6"></div>
+  <div class="basis-1/3">
     <img src="PourquoiMontreAccueil.jpg" alt="">
   </div>
   <div class="basis-1/3">
-    <p class="font-bold text-xl"> Tik Tak, la montre 
-connecte made in Pontarlier </p>
+    <p class="font-bold text-xl"> Pourquoi cette montre ? </p>
+<p>
+  La montre  Armand Guy est une montre connectée de la marque  TiK•TaK,</p>
+<p>
+  Tik Tak est une édition limitée pour l’année 2022
+</p>
 </div>
 </div>
 </section>
