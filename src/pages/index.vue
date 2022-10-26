@@ -17,6 +17,7 @@ const exemples: Montre[]  = [{
 ];
 </script>
 <template>
+  <section>
  <div class="flex flex-row">
   <div class="basis-1/2">
     <img src="Montre_accueil.png" alt="">
@@ -38,6 +39,8 @@ connecte made in Pontarlier </p>
 </RouterLink>
 </div>
 </div>
+</section>
+<section>
 <div class="grid grid-cols-5 gap-4">
   <div class="..."></div>
   <div class="..."></div>
@@ -49,6 +52,7 @@ connecte made in Pontarlier </p>
     <p class="text-bleuroi">Les Différents modèles</p>
     </div>
   </div>
+</section>
    <section>
     <h1 class="text-2xl">Exemples de Montres</h1>
     <div class="flex flex-wrap gap-2">
