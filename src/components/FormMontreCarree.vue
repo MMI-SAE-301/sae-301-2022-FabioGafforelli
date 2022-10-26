@@ -5,7 +5,9 @@
     import { useRouter } from "vue-router";
     import SvgProfil from "./MontreCarree.vue";
 import FormKitListColors from "./FormKitListColors.vue";
+import { Switch } from '@headlessui/vue'
 
+const enabled = ref(false)
 const router = useRouter();
 const montre = ref({});
 const { data: listeMateriaux, error } = await supabase
@@ -51,7 +53,22 @@ async function upsertMontre (dataForm, node) {
             <FormKitListColors name="bracelet" label="bracelet" />
             <FormKitListColors name="boitier" label="boitier" />
             <FormKitListColors name="ecran" label="Informations affichées sur l'écran" />
-            <FormKit name="commander" label="Commander" type="checkbox"  />
+            <FormKit class="grid grid-cols-2" name="commander" label="Commander" type="checkbox">
+  <div class="py-16">
+    <Switch
+      v-model="enabled"
+      :class="enabled ? 'bg-bleuroi' : 'bg-bleuroi'"
+      class="relative inline-flex h-[38px] w-[74px] shrink-0 cursor-pointer rounded-full border-2 border-transparent transition-colors duration-200 ease-in-out focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75"
+    >
+      <span class="sr-only">Use setting</span>
+      <span
+        aria-hidden="true"
+        :class="enabled ? 'translate-x-9' : 'translate-x-0'"
+        class="pointer-events-none inline-block h-[34px] w-[34px] transform rounded-full bg-blanc shadow-lg ring-0 transition duration-200 ease-in-out"
+      />
+    </Switch>
+  </div>
+</FormKit>
         </FormKit>
     </div>
     </main>
