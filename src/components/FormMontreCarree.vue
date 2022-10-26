@@ -155,6 +155,13 @@ const { data, error } = await supabase
     />
   </Switch>
         </div>
+        <div>
+                <h1 class="text-white">Prix</h1>
+                <br>
+                <div class="bg-bleuroi rounded-2xl pl-3 pr-3 py-3 mb-3">
+                <h2 class="text-blanc">249€</h2> 
+            </div>
+        </div>
         <button
         type="button"
         v-if="quartierObject.id"
