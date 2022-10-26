@@ -13,11 +13,19 @@ import MontreCarree from '@/components/MontreCarree.vue';
                 Paiement par carte :
             </h3>
 <br>
+<FormKit type="form">
+    <FormKit
+  type="text"
+  label="Nom du titulaire de la carte"
+  placeholder="Nom du titulaire de la carte"
+value=""
+/>
+</FormKit>
 <h3 class="text-xl font-bold">
                 Prix : 249€
             </h3>
-            <RouterLink to="/montres/paiement">
-            <button class="bg-bleuroi px-5 py-3 text-sm shadow-sm font-medium  text-blanc rounded-full hover:shadow-2xl hover:bg-bleuroi-100">Continuer</button>
+            <RouterLink to="/montres/">
+            <button class="bg-bleuroi px-5 py-3 text-sm shadow-sm font-medium  text-blanc rounded-full hover:shadow-2xl hover:bg-bleuroi-100">Payer</button>
         </RouterLink>
         </div>
         </div>
