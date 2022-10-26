@@ -133,14 +133,7 @@ connecte made in Pontarlier </p>
           <MontreCarre class="w-64" v-bind="montre" />
       </div>
       <div class="w-64" v-for="montre in exemple">
-        <RouterLink
-          :to="{
-            name: 'montres-exemple-data',
-            params: { data: JSON.stringify(montre) },
-          }"
-        >
           <MontreRonde class="w-64" v-bind="montre" />
-        </RouterLink>
       </div>
       </div>
       </section>
