@@ -10,13 +10,15 @@ import { supabase, user } from '@/supabase';
 <template>
     <h1 class="text-center text-4xl font-bold text-bleuroi">SE CONNECTER ?</h1>
     <br>
-    <div class="grid grid-cols-2">
-    <div class="grid grid-cols-2">
+    <div class="grid grid-cols-3">
+    <div class="">
         <LoginGoogle />
-        <LoginFacebook />
     </div>
     <div class="text-center">
         <Login />
+    </div>
+    <div>
+        <LoginFacebook />
     </div>
 </div>
 </template>
