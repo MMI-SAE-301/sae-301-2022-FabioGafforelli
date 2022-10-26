@@ -102,6 +102,14 @@ connecte made in Pontarlier </p>
 </div>
 </div>
 </section>
+<br>
+<section>
+  <div class="">
+  <div class=" flex justify-center">
+    <h1 class="font-bold text-4xl text-bleuroi">TiK•TaK</h1>
+  </div>
+  </div>
+</section>
    <section>
     <h1 class="text-2xl">Exemples de Montres</h1>
     <div class="flex flex-wrap gap-2">
