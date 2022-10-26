@@ -91,8 +91,9 @@ connecte made in Pontarlier </p>
 <p>
   La montre  Armand Guy est une montre connectée de la marque  TiK•TaK,</p>
 <p>
-  Tik Tak est une édition limitée pour l’année 2022
+  De forme rectangulaire, la forme basique d’une montre connectée, différents bracelet sont proposés ainsi qu’une multitude de boitier et d’écran!
 </p>
+<p>Cette montre tient son nom de Guy Armand, personnalité locale de Pontarlier connu pour avoir fondé en 1890 la distillerie “Armand Guy” créateur du célébre Pontarlier Anis qui a fait la renomée de la ville de Pontarlier.</p>
 </div>
 </div>
 </section>
