@@ -55,7 +55,16 @@ async function upsertMontre (dataForm, node) {
                 <div class="bg-bleuroi rounded-2xl pl-3 pr-3 py-3 mb-3">
                 <FormKitListColors name="bracelet" />
             </div>
-         </div>
+            </div>
+          <div>
+                <h1 class="text-white">Matériaux du bracelet</h1>
+                <br>
+                <div class="bg-bleuroi rounded-2xl pl-3 pr-3 py-3 mb-3">
+                  <FormKit type="select" name="id_materiaux"  placeholder="Sélectionner le matériel du bracelet" :options="optionsMateriaux" />             
+            </div>
+        </div>
+            <br>
+            
         </FormKit>
             <br>
       </div>
