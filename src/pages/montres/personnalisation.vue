@@ -15,7 +15,9 @@ import MontreRonde from '@/components/MontreRonde.vue';
     </RouterLink>
   </div>
   <div class="col-span-2 text-bleuroi ">
+    <RouterLink to="/montres/new">
     <button class="bg-bleuroi px-5 py-3 text-sm shadow-sm font-medium  text-blanc rounded-full hover:shadow-2xl hover:bg-bleuroi-100">Armand GUY</button>
+    </RouterLink>
   </div>
   <div class="w-64">
     <MontreRonde />
