@@ -48,7 +48,7 @@ async function upsertMontre (dataForm, node) {
         <div class="w-80 bg-bleuroi rounded-2xl pl-10 pr-10 py-10 mb-10">
             <SvgProfil class=" w-64" v-bind="montre" id="profil" />
         </div>
-        <FormKit type="form" v-model="montre" @submit="upsertMontre"  >
+        <FormKit submit-label="Ajouter au panier" type="form" v-model="montre" @submit="upsertMontre"  >
           <div>
                 <h1 class="text-white">Bracelet</h1>
                 <br>
