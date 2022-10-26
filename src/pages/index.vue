@@ -4,6 +4,7 @@ import type { Montre } from "@/types";
 import { supabase, user } from '@/supabase';
 import ListeMontres from '@/components/ListeMontres.vue';
 import Login from "@/components/Login.vue";
+import MontreRonde from "@/components/MontreRonde.vue";
 const exemples: Montre[]  = [{
   bracelet: "#FF0000",
   boitier: "#FF00FF",
@@ -56,13 +57,14 @@ connecte made in Pontarlier </p>
 <br>
 <br>
 <section>
-  <div class="grid grid-cols-4 gap-4">
-  <div class="..."></div>
-  <div class="box-border h-32 w-32 p-4 border-4 ...">
-  <MontreCarre />
+  <div class="grid grid-cols-3 gap-4">
+  <div class="box-border h-96 w-96 p-16 border-4 bg-bleuroi">
+  <MontreCarre class="h-64 w-64 p-4" />
 </div>
-<div class="...">03</div>
-  <div class="...">04</div>
+<div class="..."></div>
+<div class="box-border h-96 w-96 p-4 border-4 ...">
+  <MontreRonde />
+</div>
   </div>
 </section>
    <section>
