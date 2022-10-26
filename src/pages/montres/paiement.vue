@@ -35,6 +35,12 @@ value=""
   name="mois et année d'expiration"
   value=""
 />
+<FormKit
+  type="text"
+  label="Numéro de sécurité"
+  placeholder="Numéro de sécurité"
+value=""
+/>
 </div>
 </FormKit>
 <h3 class="text-xl font-bold">
