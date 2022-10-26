@@ -151,17 +151,4 @@ connecte made in Pontarlier </p>
       </div>
       </div>
       </section>
- <section>
-  <h1>Connectez vous afin d'accèder à la liste de vos montres personnalisées</h1>
- </section>
- <Login />
- <section v-if="user">
-  <h2>
-    un extrait de vos montres (<RouterLink
-      class="text-red-600 underline"
-      to="/montres/liste"
-      >Toutes les voir</RouterLink
-    >)
-  </h2>
-</section>
 </template>
