@@ -60,6 +60,9 @@ connecte made in Pontarlier </p>
   <div class="grid grid-cols-3 gap-4">
   <div class="box-border h-96 w-96 p-16 border-4 bg-gris">
   <MontreCarre class="h-64 w-64 p-4" />
+  <p class="font-bold">
+    La Armand Guy
+  </p>
 </div>
 <div class="..."></div>
 <div class="box-border h-96 w-96 p-16 border-4 bg-gris">
