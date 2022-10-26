@@ -64,6 +64,11 @@ const menuOuvert = ref(false);
             <li class="my-3" v-else>
               <RouterLink class="my-6 lg:px-4 xl:pt-2 xl:rounded-sm font-museomoderno text-blanc " to="/montres/inspiration">Inspiration</RouterLink>
             </li>
+            <li class="my-3" v-if="user">
+              <RouterLink class="my-6 lg:px-4 xl:pt-2 xl:rounded-sm font-museomoderno text-blanc " to="/montres/panier">
+                <Panier />
+              </RouterLink>
+            </li>
             <li class="my-3">
               <RouterLink class="my-6 lg:px-4 xl:pt-2 xl:rounded-sm font-museomoderno text-blanc " to="/login">Se Connecter</RouterLink>
             </li>
