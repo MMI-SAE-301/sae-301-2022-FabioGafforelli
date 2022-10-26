@@ -13,7 +13,9 @@
     const nvlUtilisateur = ref(false);
     </script>
     <template>
-      <div>
+      <br>
+      <div class="flex justify-center  ">
+                <div class=" mt-auto p-16 border-neutral-50 border-2 ">
         <button v-if="user" @pointerdown="supabase.auth.signOut()">
           Se déconnecter ({{ user.email }})
         </button>
@@ -33,4 +35,5 @@
           />
         </FormKit>
       </div>
+</div>
     </template>
