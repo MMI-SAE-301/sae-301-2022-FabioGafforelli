@@ -8,6 +8,18 @@ import MontreCarree from '@/components/MontreCarree.vue';
         <div class="">
             <MontreCarree class=" w-64" v-bind="montre" id="profil" />
         </div>
+        <div>
+            <h3 class="text-xl font-bold">
+                Paiement par carte :
+            </h3>
+<br>
+<h3 class="text-xl font-bold">
+                Prix : 249€
+            </h3>
+            <RouterLink to="/montres/paiement">
+            <button class="bg-bleuroi px-5 py-3 text-sm shadow-sm font-medium  text-blanc rounded-full hover:shadow-2xl hover:bg-bleuroi-100">Continuer</button>
+        </RouterLink>
+        </div>
         </div>
         </main>
 </template>
