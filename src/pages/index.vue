@@ -63,6 +63,9 @@ connecte made in Pontarlier </p>
   <p class="font-bold">
     La Armand Guy
   </p>
+  <p class="font-exo2">
+    A partir de 249€
+  </p>
 </div>
 <div class="..."></div>
 <div class="box-border h-96 w-96 p-16 border-4 bg-gris">
