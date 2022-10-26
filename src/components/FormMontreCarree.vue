@@ -45,16 +45,19 @@ async function upsertMontre (dataForm, node) {
 <template>
   <main clas="bg-red-700 grid grid-flow-row-dense grid-cols-[repeat(auto-fit,minmax(350px,1fr))] gap-5  lg:mx-10">
     <div class="grid grid-cols-2">
-        <div>
+        <div class="w-80 bg-bleuroi rounded-2xl pl-10 pr-10 py-10 mb-10">
             <SvgProfil class=" w-64" v-bind="montre" id="profil" />
         </div>
         <FormKit type="form" v-model="montre" @submit="upsertMontre"  >
-          <FormKit type="select" name="id_materiaux" label="Materiaux du bracelet" placeholder="Sélectionner le matériel du bracelet" :options="optionsMateriaux" />             
-            <FormKitListColors name="bracelet" label="bracelet" />
-            <FormKitListColors name="boitier" label="boitier" />
-            <FormKitListColors name="ecran" label="Informations affichées sur l'écran" />
-            <FormKit class="grid grid-cols-2" name="commander" label="Commander" type="checkbox" />
+          <div>
+                <h1 class="text-white">Bracelet</h1>
+                <br>
+                <div class="bg-bleuroi rounded-2xl pl-3 pr-3 py-3 mb-3">
+                <FormKitListColors name="bracelet" />
+            </div>
+         </div>
         </FormKit>
-    </div>
+            <br>
+      </div>
     </main>
 </template>
