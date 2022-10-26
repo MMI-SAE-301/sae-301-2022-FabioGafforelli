@@ -4,6 +4,7 @@ import { Bars3Icon } from "@heroicons/vue/20/solid";
 import { supabase, user } from '@/supabase';
 import { ref } from 'vue'
 
+const menuOuvert = ref(false);
 
 </script>
 
