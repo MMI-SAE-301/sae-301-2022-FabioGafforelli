@@ -140,6 +140,9 @@ const { data, error } = await supabase
                 <FormKitListColors name="ecran" />
             </div>
         </div>
+        <div>
+                <h1 class="text-white">Commander</h1>
+                <br>
         <Switch
     v-model="montre.commander"
     :class="montre.commander ? 'bg-bleuroi' : 'bg-bleuroi'"
@@ -151,6 +154,7 @@ const { data, error } = await supabase
       class="inline-block h-4 w-4 transform rounded-full bg-blanc transition"
     />
   </Switch>
+        </div>
         <button
         type="button"
         v-if="quartierObject.id"
