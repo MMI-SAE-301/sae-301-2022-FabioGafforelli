@@ -86,7 +86,7 @@ connecte made in Pontarlier </p>
     <img src="PourquoiMontreAccueil.jpg" alt="">
   </div>
   <div class="basis-1/3">
-    <p class="font-bold"> Tik Tak, la montre 
+    <p class="font-bold text-xl"> Tik Tak, la montre 
 connecte made in Pontarlier </p>
 </div>
 </div>
