@@ -28,7 +28,10 @@ import MontreCarree from '@/components/MontreCarree.vue';
             <p>
                 Info écran : Couleur Jaune
             </p>
-
+<br>
+<h3 class="text-xl font-bold">
+                Prix : 249€
+            </h3>
         </div>
         </div>
         </main>
