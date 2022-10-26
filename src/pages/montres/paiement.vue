@@ -13,7 +13,12 @@ import Carte from '@/components/icones/carte.vue';
             <h3 class="text-xl font-bold">
                 Choix du mode de paiement :
             </h3>
-            
+            <RouterLink to="/montres/">
+            <button class="bg-blanc px-5 py-3 text-sm shadow-sm font-medium  text-bleuroi rounded-full hover:shadow-2xl hover:bg-bleuroi-100">
+                <Carte class=""/>
+                <h3>Par carte bancaire</h3>
+            </button>
+        </RouterLink>
 <br>
 </div>
 </div>
