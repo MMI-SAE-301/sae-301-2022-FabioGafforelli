@@ -8,7 +8,7 @@ import { supabase, user } from '@/supabase';
 </script>
 
 <template>
-    <h1 class="text-center">SE CONNECTER ?</h1>
+    <h1 class="text-center text-4xl font-bold text-bleuroi">SE CONNECTER ?</h1>
     <br>
     <div class="grid grid-cols-2">
         <LoginGoogle />
