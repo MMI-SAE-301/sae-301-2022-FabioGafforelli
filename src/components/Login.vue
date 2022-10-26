@@ -22,6 +22,7 @@
         <FormKit
           v-else
           type="form"
+          :submit-attrs="{ classes: { input: 'bg-bleuroi p-1 rounded2xl text-blanc' } }"
           :submit-label="nvlUtilisateur ? 'S\'inscrire' : 'Se connecter'"
           @submit="signIn"
         >
