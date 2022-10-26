@@ -108,7 +108,7 @@ connecte made in Pontarlier </p>
 <RouterLink to="/montres/personnalisation">
   <br>
   <span class="animate-pulse">
-<button class="bg-bleuroi px-5 py-3 text-sm shadow-sm font-medium  text-blanc border-full hover:shadow-2xl hover:bg-bleuroi">
+<button class="bg-bleuroi px-5 py-3 text-sm shadow-sm font-medium  text-blanc border-full hover:shadow-2xl hover:bg-bleuroi-100">
    + Commencer la personnalisation
 </button>
 </span>
