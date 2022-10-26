@@ -73,6 +73,9 @@ connecte made in Pontarlier </p>
   <p class="font-bold">
     La François Perrier
   </p>
+  <p class="font-exo2">
+    A partir de 249€ / A VENIR
+  </p>
 </div>
   </div>
 </section>
