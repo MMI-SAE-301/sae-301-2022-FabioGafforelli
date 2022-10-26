@@ -24,6 +24,9 @@ import { supabase, user } from "@/supabase";
             <li class="my-3" v-if="user">
               <RouterLink class="my-6 lg:px-4 xl:pt-2 xl:rounded-sm font-museomoderno text-blanc  " to="/montres">Mes montres</RouterLink>
             </li>
+            <li class="my-3" v-else>
+              <RouterLink class="my-6 lg:px-4 xl:pt-2 xl:rounded-sm font-museomoderno text-blanc  " to="/montres/inspiration">Inspirations</RouterLink>
+            </li>
             <li class="my-3">
               <RouterLink class="my-6 lg:px-4 xl:pt-2 xl:rounded-sm font-museomoderno text-blanc " to="/reglement"></RouterLink>
             </li>
