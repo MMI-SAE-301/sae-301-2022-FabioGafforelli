@@ -33,9 +33,9 @@ Noté sur 40.
 
 - [x] usage de Classes utilitaires (1pt)
   - lien vers sa définition
-  - lien vers son usage
-- [ ] Composants graphiques (0-1-2pts)
-  - (/src/components/FormMontreCarree.vue)
+  - [lien vers son usage](/src/components/FormMontreCarree.vue)
+- [x] Composants graphiques (0-1-2pts)
+  - [lien composant](/src/components/FormMontreCarree.vue)
 - Technique CSS (0-1-2pts)
   - Quelles techniques (Eg. Styles graphiques (répétés) tous ajoutés par CSS et/ou
     config. Tailwind (eg. before/after avec content, background...))
@@ -43,8 +43,9 @@ Noté sur 40.
   - liens
 - Mise en page CSS (0-1-2pts)
   - Quelles techniques (Grilles Flex...)
-    - ... 
-  - liens
+    - grid 
+  - [lien grid](/src/pages/index.vue#L56)
+
   - [ ] Mise en page fluide
 - [ ] Mobile First (0-1-2pts)
   - [ ] Plusieurs tailles
