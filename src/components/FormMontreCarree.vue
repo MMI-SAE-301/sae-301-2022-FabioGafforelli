@@ -166,8 +166,10 @@ const { data, error } = await supabase
                 <h2 class="text-blanc">249€</h2> <h2 class="line-through text-gris">Au lieu de 299€</h2>
             </div>
         </div>
+        <!-- @ts-ignore -->
         <button
         type="button"
+        
         v-if="quartierObject.id"
         @click="($refs.dialogSupprimer as any).showModal()"
         class="focus-style justify-self-end rounded-md bg-rouge p-2 shadow-sm"
