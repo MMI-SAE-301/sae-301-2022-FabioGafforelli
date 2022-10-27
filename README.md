@@ -46,7 +46,7 @@ Noté sur 40.
     - grid 
   - [lien grid](/src/pages/index.vue#L56)
 
-  - [ ] Mise en page fluide
+  - [x] Mise en page fluide
 - [ ] Mobile First (0-1-2pts)
   - [ ] Plusieurs tailles
     - Lesquelles...
