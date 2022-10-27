@@ -1,4 +1,5 @@
 <script setup lang="ts">
+// @ts-nocheck
     import { ref } from "@vue/reactivity";
     import { supabase, user } from "../supabase";
     async function signIn(data, node) {
