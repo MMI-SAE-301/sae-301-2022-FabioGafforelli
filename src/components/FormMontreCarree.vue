@@ -37,7 +37,7 @@ if (props.id) {
     console.log("n'a pas pu charger la table Montre :", error);
   else montre.value = data[0];
 }
-const quartierObject: Ref<any> = ref({});
+const quartierObject = ref({});
 if (props.id) {
   // On charge les données de la vue quartiercommune
   let { data, error } = await supabase
@@ -61,11 +61,13 @@ async function supprimerMontre() {
 const { data, error } = await supabase
   .from('montre')
   .delete()
+  // @ts-ignore
   .match({ id: quartierObject.value.id })
 
   if (error) {
     console.error(
       "Erreur à la suppression de ",
+      // @ts-ignore
       quartierObject.value.id,
       "erreur :",
       error
@@ -94,6 +96,7 @@ const { data, error } = await supabase
                 <h1 class="text-white">Matériaux du bracelet</h1>
                 <br>
                 <div class="bg-bleuroi rounded-2xl pl-3 pr-3 py-3 mb-3">
+                  <!-- @ts-ignore -->
                   <RadioGroup v-model="montre.id_materiaux" >
                     <RadioGroupLabel class="sr-only ">Server size</RadioGroupLabel>
                         <div class="flex gap-10 ">
@@ -143,6 +146,7 @@ const { data, error } = await supabase
         <div>
                 <h1 class="text-white">Commander</h1>
                 <br>
+                        <!-- @ts-ignore -->
         <Switch
     v-model="montre.commander"
     :class="montre.commander ? 'bg-bleuroi' : 'bg-bleuroi'"
