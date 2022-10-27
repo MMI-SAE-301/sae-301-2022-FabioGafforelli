@@ -31,7 +31,7 @@ Noté sur 40.
 - Code et Commit (0-2-4-6pts)
 - Code HTML spécifiquement sémantique et accessible (0-1-2pts)
 
-- [ ] usage de Classes utilitaires (1pt)
+- [x] usage de Classes utilitaires (1pt)
   - lien vers sa définition
   - lien vers son usage
 - [ ] Composants graphiques (0-1-2pts)
