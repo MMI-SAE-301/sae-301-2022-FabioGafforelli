@@ -1,6 +1,6 @@
 <script setup lang="ts">
     import type { Montre } from "@/types" 
-    import { Ref, ref } from "vue";
+    import { ref } from "vue";
     import { supabase } from "@/supabase";
     import { useRouter } from "vue-router";
     import SvgProfil from "./MontreCarree.vue";
@@ -37,7 +37,7 @@ if (props.id) {
     console.log("n'a pas pu charger la table Montre :", error);
   else montre.value = data[0];
 }
-const quartierObject: Ref<any> = ref({});
+const quartierObject: ref<any> = ref({});
 if (props.id) {
   // On charge les données de la vue quartiercommune
   let { data, error } = await supabase
