@@ -36,7 +36,7 @@ const exemple: Montre[]  = [{
     <img src="/public/Montreaccueil.png" alt="">
   </div>
   <div class="basis-1/4">
-    <img src="TiKTaK.png" alt="">
+    <img src="/public/TiKTaK.png" alt="">
     <p class="font-bold"> Tik Tak, la montre 
 connecte made in Pontarlier </p>
 
