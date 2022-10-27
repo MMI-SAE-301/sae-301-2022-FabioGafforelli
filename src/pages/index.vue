@@ -33,10 +33,10 @@ const exemple: Montre[]  = [{
   <section>
  <div class="flex flex-row">
   <div class="basis-1/2">
-    <img src="/public/Montreaccueil.png" alt="">
+    <img src="Montre_accueil.png" alt="">
   </div>
   <div class="basis-1/4">
-    <img src="/public/TiKTaK.png" alt="">
+    <img src="TiKTaK.png" alt="">
     <p class="font-bold"> Tik Tak, la montre 
 connecte made in Pontarlier </p>
 
@@ -95,9 +95,9 @@ connecte made in Pontarlier </p>
  <div class="flex flex-row">
   <div class="basis-1/6"></div>
   <div class="basis-1/3">
-    <img src="/public/PourquoiMontreAccueil.jpg" alt="">
+    <img src="PourquoiMontreAccueil.jpg" alt="">
   </div>
-  <div class="basis-1/3 pl-5">
+  <div class="basis-1/3">
     <p class="font-bold text-xl"> Pourquoi cette montre ? </p>
 <p>
   La montre  Armand Guy est une montre connectée de la marque  TiK•TaK,</p>
