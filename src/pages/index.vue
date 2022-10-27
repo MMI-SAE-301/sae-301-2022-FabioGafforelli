@@ -97,7 +97,7 @@ connecte made in Pontarlier </p>
   <div class="basis-1/3">
     <img src="PourquoiMontreAccueil.jpg" alt="">
   </div>
-  <div class="basis-1/3">
+  <div class="basis-1/3 pl-5">
     <p class="font-bold text-xl"> Pourquoi cette montre ? </p>
 <p>
   La montre  Armand Guy est une montre connectée de la marque  TiK•TaK,</p>
