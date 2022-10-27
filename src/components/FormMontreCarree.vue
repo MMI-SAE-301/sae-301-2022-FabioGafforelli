@@ -94,34 +94,7 @@ const { data, error } = await supabase
                 <h1 class="text-white">Matériaux du bracelet</h1>
                 <br>
                 <div class="bg-bleuroi rounded-2xl pl-3 pr-3 py-3 mb-3">
-                  <RadioGroup v-model="montre.id_materiaux" >
-                    <RadioGroupLabel class="sr-only ">Server size</RadioGroupLabel>
-                        <div class="flex gap-10 ">
-                            <RadioGroupOption class=""
-                                as="template"
-                                v-for="materiaux in listeMateriaux"
-                                :key="materiaux.id_materiaux"
-                                :value="materiaux.id_materiaux"
-                                v-slot="{ active, checked }">
-                                <div :class="[
-                                  active
-                                    ? 'ring-2 ring-noir'
-                                    : '',
-                                  checked ? 'bg-bleuroi text-blanc hover:ring-2 hover:ring-noir ' : ' bg-blanc border-2 hover:ring-2 hover:ring-noir',
-                                    ]"
-                                    class="cursor-pointer rounded-lg px-10 py-4 border-2 border-noir ">
-                                    <div class="text-sm">
-                                        <RadioGroupLabel
-                                            as="p"
-                                            :class="checked ? 'text-blanc' : 'text-noir '"
-                                            class="font-medium ">
-                                            {{ materiaux.libelle_materiaux }}
-                                        </RadioGroupLabel>
-                                    </div>
-                                </div>
-                        </RadioGroupOption>
-                    </div>
-                </RadioGroup>
+                  
                 </div>
         </div>
             <br>
@@ -143,17 +116,7 @@ const { data, error } = await supabase
         <div>
                 <h1 class="text-white">Commander</h1>
                 <br>
-        <Switch
-    v-model="montre.commander"
-    :class="montre.commander ? 'bg-bleuroi' : 'bg-bleuroi'"
-    class="relative inline-flex h-6 w-11 items-center rounded-full"
-  >
-    <span class="sr-only">Commander</span>
-    <span
-      :class="montre.commander ? 'translate-x-6' : 'translate-x-1'"
-      class="inline-block h-4 w-4 transform rounded-full bg-blanc transition"
-    />
-  </Switch>
+    
         </div>
         <div>
                 <h1 class="text-white">Prix</h1>
