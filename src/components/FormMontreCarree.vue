@@ -37,17 +37,6 @@ if (props.id) {
     console.log("n'a pas pu charger la table Montre :", error);
   else montre.value = data[0];
 }
-const quartierObject: ref<any> = ref({});
-if (props.id) {
-  // On charge les données de la vue quartiercommune
-  let { data, error } = await supabase
-    .from("montre")
-    .select("*")
-    .eq("id", props.id);
-  if (error || !data)
-    console.log("n'a pas pu charger le table Maison :", error);
-  else quartierObject.value = data[0];
-}
 // @ts-ignore
 async function upsertMontre (dataForm, node) {
   const { data, error } = await supabase.from("montre").upsert(dataForm);
@@ -55,23 +44,6 @@ async function upsertMontre (dataForm, node) {
   else {
     node.setErrors([]);
     router.push({ name: "montres", params: { id: data[0].id } });
-  }
-}
-async function supprimerMontre() {
-const { data, error } = await supabase
-  .from('montre')
-  .delete()
-  .match({ id: quartierObject.value.id })
-
-  if (error) {
-    console.error(
-      "Erreur à la suppression de ",
-      quartierObject.value.id,
-      "erreur :",
-      error
-    );
-  } else {
-    router.push("/montres");
   }
 }
 </script>
@@ -152,31 +124,6 @@ const { data, error } = await supabase
                 <h2 class="text-blanc">249€</h2> <h2 class="line-through text-gris">Au lieu de 299€</h2>
             </div>
         </div>
-        <button
-        type="button"
-        v-if="quartierObject.id"
-        @click="($refs.dialogSupprimer as any).showModal()"
-        class="focus-style justify-self-end rounded-md bg-rouge p-2 shadow-sm"
-      >
-        Supprimer l'offre
-      </button>
-      <dialog
-        ref="dialogSupprimer"
-        @click="($event.currentTarget as any).close()"
-      >
-        <button
-          type="button"
-          class="focus-style justify-self-end rounded-md bg-blanc p-2 shadow-sm"
-        >
-          Annuler</button
-        ><button
-          type="button"
-          @click="supprimerMontre()"
-          class="focus-style rounded-md bg-rouge p-2 shadow-sm"
-        >
-          Confirmer suppression
-        </button>
-      </dialog>
         </FormKit>
             <br>
       </div>
