@@ -95,7 +95,7 @@ connecte made in Pontarlier </p>
  <div class="flex flex-row">
   <div class="basis-1/6"></div>
   <div class="basis-1/3">
-    <img src="PourquoiMontreAccueil.jpg" alt="">
+    <img src="/public/PourquoiMontreAccueil.jpg" alt="">
   </div>
   <div class="basis-1/3 pl-5">
     <p class="font-bold text-xl"> Pourquoi cette montre ? </p>
