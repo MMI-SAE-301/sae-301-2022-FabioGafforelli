@@ -1,6 +1,6 @@
 <script setup lang="ts">
     import type { Montre } from "@/types" 
-    import { Ref, ref } from "vue";
+    import { ref } from "vue";
     import { supabase } from "@/supabase";
     import { useRouter } from "vue-router";
     import SvgProfil from "./MontreCarree.vue";
