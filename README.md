@@ -35,7 +35,7 @@ Noté sur 40.
   - lien vers sa définition
   - lien vers son usage
 - [ ] Composants graphiques (0-1-2pts)
-  - liens
+  - (/src/components/FormMontreCarree.vue)
 - Technique CSS (0-1-2pts)
   - Quelles techniques (Eg. Styles graphiques (répétés) tous ajoutés par CSS et/ou
     config. Tailwind (eg. before/after avec content, background...))
@@ -43,7 +43,7 @@ Noté sur 40.
   - liens
 - Mise en page CSS (0-1-2pts)
   - Quelles techniques (Grilles Flex...)
-    - ...
+    - ... 
   - liens
   - [ ] Mise en page fluide
 - [ ] Mobile First (0-1-2pts)
