@@ -1,4 +1,5 @@
 <script setup lang="ts">
+// @ts-nocheck
     import type { Montre } from "@/types" 
     import { ref } from "vue";
     import { supabase } from "@/supabase";
