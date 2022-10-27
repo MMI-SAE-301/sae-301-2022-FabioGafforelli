@@ -33,7 +33,7 @@ const exemple: Montre[]  = [{
   <section>
  <div class="flex flex-row">
   <div class="basis-1/2">
-    <img src="Montre_accueil.png" alt="">
+    <img src="Montreaccueil.png" alt="">
   </div>
   <div class="basis-1/4">
     <img src="TiKTaK.png" alt="">
