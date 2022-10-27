@@ -36,6 +36,12 @@ from "materiaux","montre"
 where"materiaux".id_materiaux = "montre".id_materiaux
 and "materiaux"."libelle_materiaux" = 'Cuir'
 
+CREATE View allPlatine as
+select "montre"
+from "materiaux","montre"
+where"materiaux".id_materiaux = "montre".id_materiaux
+and "materiaux"."libelle_materiaux" = 'Platine'
+
 --
 -- code pour la création des policies 
 --
