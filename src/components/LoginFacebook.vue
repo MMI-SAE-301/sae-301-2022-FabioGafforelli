@@ -4,10 +4,10 @@ import LogoFacebook from './LogoFacebook.vue';
 </script>
 <template>
 <div class="flex justify-center  ">
-                <div class=" mt-auto p-16 border-neutral-50 border-4 ">
+                <div class="bg-bleuroi-100 mt-auto p-16 border-neutral-50 border-4 ">
     <button @pointerdown="supabase.auth.signIn({provider: 'facebook'})">
         <LogoFacebook />
-        Se connecter avec Facebook
+        <p>Se connecter avec Facebook</p>
     </button>
 </div>
 </div>
