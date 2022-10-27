@@ -2,8 +2,7 @@
 import MontreCarre from "@/components/MontreCarree.vue";
 import type { Montre } from "@/types";
 import { supabase, user } from '@/supabase';
-import ListeMontres from '@/components/ListeMontres.vue';
-import Login from "@/components/Login.vue";
+
 import LineVue from "@/components/line.vue";
 import MontreRonde from "@/components/MontreRonde.vue";
 const exemples: Montre[]  = [{
