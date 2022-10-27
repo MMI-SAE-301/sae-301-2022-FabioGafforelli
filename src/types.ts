@@ -2,6 +2,8 @@ export interface Montre {
     bracelet?: string;
     boitier?: string;
     ecran?: string;
+    commander?: boolean;
+    id?: string;
   };
   export const colors = {
     "#000000": "Noir",
