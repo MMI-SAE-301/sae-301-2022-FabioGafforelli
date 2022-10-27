@@ -26,7 +26,9 @@ FOREIGN KEY (id_materiaux) REFERENCES materiaux(id_materiaux)
 --
 -- code pour la création des vues
 --
-
+CREATE VIEW allMateriaux as
+SELECT *
+FROM "materiaux";
 
 
 
